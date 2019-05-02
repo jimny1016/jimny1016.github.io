@@ -70,6 +70,7 @@
     <Content Include="ColorBlock.html" />
     <Content Include="css\ChangeBolck.css" />
     <Content Include="css\WidthChange.css" />
+    <Content Include="index.html" />
     <Content Include="WidthChange.html" />
     <Content Include="Web.config" />
   </ItemGroup>
