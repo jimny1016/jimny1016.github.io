@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootsrapExercise", "BootsrapExercise\WebApplication1\BootsrapExercise.csproj", "{E3298993-558B-4806-B7ED-475173E0D11C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootsrapExercise", "BootsrapExercise\BootsrapExercise.csproj", "{E3298993-558B-4806-B7ED-475173E0D11C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
