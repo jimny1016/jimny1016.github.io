@@ -61,6 +61,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BootstrapFinalTest.html" />
     <Content Include="ColorBlock.html" />
     <Content Include="css\ChangeBolck.css" />
     <Content Include="css\WidthChange.css" />
