@@ -11,7 +11,7 @@
 
 <body>
     <!-- Navbar Component -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#"><img src="https://jimny1016.github.io/img/logo.png" alt="" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,23 +20,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#Skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Our Team</a>
+                    <a class="nav-link" href="#Experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#MyPhotos">MyPhotos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid" style="background:url(https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover;">
+    <div id="Home" class="jumbotron jumbotron-fluid" style="padding:125px 0px 40px 0px; background:url(https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover;">
         <div class="bg-dark text-light text-center my-5">
             <h1 class="display-4">Administrator made easyuse</h1>
             <p>Adhoc is a on-demand administitive service for your compny growth</p>
@@ -104,9 +107,8 @@
                 <h2 class="text-light display-4 text-center">Meet the Team</h2>
             </div>
         </div>-->
-
         <!-- Team Pictures Carousel -->
-        <div class="row bg-dark rounded-bottom">
+        <div class="row bg-dark rounded-bottom padding-top" id="MyPhotos">
             <div class="col">
                 <!-- Carousel Component -->
                 <div id="carouselExampleControls" class="carousel slide w-100 p-3 mx-auto" data-ride="carousel">
@@ -156,6 +158,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
