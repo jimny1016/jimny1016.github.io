@@ -64,7 +64,11 @@
     <Content Include="BootstrapFinalTest.html" />
     <Content Include="ColorBlock.html" />
     <Content Include="css\ChangeBolck.css" />
+    <Content Include="css\line-icons.css" />
+    <Content Include="css\myface.css" />
+    <Content Include="css\SkillsSection.css" />
     <Content Include="css\WidthChange.css" />
+    <Content Include="fonts\LineIcons.svg" />
     <Content Include="index.html" />
     <Content Include="WidthChange.html" />
     <Content Include="Web.config" />
@@ -73,6 +77,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\.DS_Store" />
+    <Content Include="fonts\LineIcons.eot" />
+    <Content Include="fonts\LineIcons.ttf" />
+    <Content Include="fonts\LineIcons.woff" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
