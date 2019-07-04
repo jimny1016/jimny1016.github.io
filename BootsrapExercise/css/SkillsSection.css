@@ -1,6 +1,6 @@
 ﻿
 .section {
-    padding: 80px 0;
+    padding: 100px 0;
 }
 .section-header {
     color: #fff;
@@ -23,7 +23,7 @@
     content: '';
     position: absolute;
     bottom: -8px;
-    width: 80px;
+    width: 55px;
     height: 2px;
     background: #F97794;
     -webkit-transition: 0.3s;
@@ -140,4 +140,39 @@
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
+}
+/* Services Item */
+.item-boxes {
+    padding: 30px;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    margin: 15px 0;
+    webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.item-boxes .icon {
+    margin-bottom: 10px;
+}
+
+    .item-boxes .icon i {
+        font-size: 30px;
+        line-height: 60px;
+        color: #F97794;
+    }
+
+.item-boxes h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.item-boxes p {
+    margin: 0;
+}
+
+.item-boxes:hover {
+    background: transparent;
+    box-shadow: 0px 10px 50px 0px rgba(84, 110, 122, 0.35);
 }
