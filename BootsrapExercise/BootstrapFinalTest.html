@@ -9,9 +9,10 @@
     <title>Jimmy's resume</title>
     <link rel="stylesheet" href="css/myface.css" />
     <link rel="stylesheet" href="css/SkillsSection.css" />
-    <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/line-icons.css"/>
     <link rel="stylesheet" href="css/Experience.css" />
     <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Contact.css" />
     <style type="text/css">
         p {
             font-size: 14px;
@@ -53,7 +54,7 @@
     </nav>
 
     <!-- Jumbotron -->
-    <div id="Home" class="jumbotron jumbotron-fluid" style="min-height: 100vh; padding:266px 0px 211px 0px; background:url(https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover; background-position: center center;">
+    <div id="Home" class="jumbotron jumbotron-fluid" style="min-height: 100vh; padding:266px 0px 211px 0px; background:url(https://jimny1016.github.io/img/1440x696/jumbotron.png) no-repeat; background-size: cover; background-position: center center;">
         <div class="bg-dark container-fluid">
             <div class="row">
                 <div class="container" style="max-width: 960px;">
@@ -183,9 +184,13 @@
         </div>
     </div>
     <!-- Experience End -->
-
     <!-- Container -->
-    <div id="MyPhotos" class="container" style="padding:100px 0px 0px 0px">
+    <div id="MyPhotos" class="container" style="padding:100px 0px 100px 0px">
+        <div class="section-header">
+            <h2 class="section-title">My Photos</h2>
+            <span>Photos</span>
+            <p class="section-subtitle">&nbsp;</p>
+        </div>
         <!-- Team Pictures Carousel -->
         <div class="row rounded-bottom padding-top">
             <div class="col">
@@ -216,32 +221,66 @@
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <footer class="text-center">2019 Adhoc &copy;</footer>
     </div>
 
-    <!-- Bootstrap's JavaScript Files -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
+    <div id="Contact" class="jumbotron jumbotron-fluid" style="min-height: 100vh; margin:0; padding-top:100px; background:url(https://jimny1016.github.io/img/1440x696/jumbotron.png) no-repeat; background-size: cover; background-position: center center;">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 text-center text-white">
+                    <div class="contact_card active">
+                        <h1 class="py-4">Contact Me</h1>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-6">
+                                <div class="px-3">
+                                    <img src="https://jimny1016.github.io/img/20190629_104219_edit.jpg" alt="" class="img-fluid img-thumbnail">
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="py-3">朱智群 ( Jimmy )</h3>
+                        <h5 class="pb-3">
+                            <a href="mailto:jimny1014@gmail.com" class="text-white">
+                                <i class="lni-envelope"></i>
+                                jimny1014@gmail.com
+                            </a>
+                        </h5>
+                        <h5 class="pb-3">
+                            <i class="lni-phone-handset"></i>
+                            0975-320-521
+                        </h5>
+                        <a href="https://www.facebook.com/profile.php?id=100000312843510" target="_blank" style="color:white;">
+                            <i class="lni-facebook"></i>
+                        </a>
+                        <a href="https://github.com/livepower0815/my-resume" target="_blank" style="color:white;">
+                            <i class="lni-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
+        <!-- Bootstrap's JavaScript Files -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script>
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
                 });
             });
-        });
-        $(function () {
-            if ($(window).width() < 990) {
-                $('.navbar a').on('click', function () {
-                    $('.navbar-toggler').click();
-                });
-            }
-        });
-    </script>
+            $(function () {
+                if ($(window).width() < 990) {
+                    $('.navbar a').on('click', function () {
+                        $('.navbar-toggler').click();
+                    });
+                }
+            });
+        </script>
 </body>
 
 </html>
