@@ -168,7 +168,7 @@
                                         2016 年 06 月畢業於國立虎尾科技大學 光電系，
                                         過程中曾榮獲 104 學年度四技專題競賽全系第一名，
                                         曾擔任兩年班級代表，
-                                        層參加熱音社主唱團。
+                                        曾參加熱音社主唱團。
                                     </p>
                                     <p>&nbsp;</p>
                                     <p>&nbsp;</p>
@@ -233,6 +233,13 @@
                     behavior: 'smooth'
                 });
             });
+        });
+        $(function () {
+            if ($(window).width() < 990) {
+                $('.navbar a').on('click', function () {
+                    $('.navbar-toggler').click();
+                });
+            }
         });
     </script>
 </body>
