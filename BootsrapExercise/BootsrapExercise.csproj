@@ -67,6 +67,7 @@
     <Content Include="css\ChangeBolck.css" />
     <Content Include="css\Contact.css" />
     <Content Include="css\Experience.css" />
+    <Content Include="css\Hover-min.css" />
     <Content Include="css\line-icons.css" />
     <Content Include="css\Loader.css" />
     <Content Include="css\myface.css" />
