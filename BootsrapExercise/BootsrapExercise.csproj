@@ -63,15 +63,18 @@
   <ItemGroup>
     <Content Include="BootstrapFinalTest.html" />
     <Content Include="ColorBlock.html" />
+    <Content Include="css\animate.css" />
     <Content Include="css\ChangeBolck.css" />
     <Content Include="css\Contact.css" />
     <Content Include="css\Experience.css" />
     <Content Include="css\line-icons.css" />
+    <Content Include="css\Loader.css" />
     <Content Include="css\myface.css" />
     <Content Include="css\SkillsSection.css" />
     <Content Include="css\WidthChange.css" />
     <Content Include="fonts\LineIcons.svg" />
     <Content Include="index.html" />
+    <Content Include="js\jquery-min.js" />
     <Content Include="WidthChange.html" />
     <Content Include="Web.config" />
   </ItemGroup>
