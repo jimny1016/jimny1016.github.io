@@ -61,6 +61,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Jimmy%27s Resume.html" />
     <Content Include="BootstrapFinalTest.html" />
     <Content Include="ColorBlock.html" />
     <Content Include="css\animate.css" />
