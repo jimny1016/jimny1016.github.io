@@ -241,8 +241,9 @@
 }
 .inline-image {
     width: 100%; 
-    position: relative;
+    position: absolute;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     padding-inline: 10px;
 }
