@@ -295,6 +295,14 @@
         margin: 0;
     }
 }
+
+@media only screen and (max-width: 576px){    
+    .row {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+}
+
 @media only screen and (max-width: 480px){
     .main-timeline:before{ left: 0; }
     .main-timeline .timeline:first-child:before,
@@ -311,7 +319,7 @@
     }
     .main-timeline .timeline-content:before{
         width: 99.5%;
-        top: 68px;
+        top: 62px;
         left: 0.5%;
     }
     .main-timeline .circle span{
