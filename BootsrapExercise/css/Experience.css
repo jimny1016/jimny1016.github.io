@@ -239,6 +239,19 @@
 .main-timeline .timeline:last-child:nth-child(even){
     margin: 0;
 }
+.inline-image {
+    width: 100%; 
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-inline: 10px;
+}
+.inline-image-div
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 @media only screen and (max-width: 990px){
     .main-timeline:before{ left: 100%; }
     .main-timeline .timeline{
